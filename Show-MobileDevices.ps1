@@ -1,11 +1,11 @@
 ﻿## PS-Skript zum Abfragen aller ActiveSync Geräte
-## Stannek GmbH v.1.1 - 10.05.2022 - E.Sauerbier
+## Stannek GmbH v.1.11 - 10.05.2022 - E.Sauerbier
 
 # Exchange Exchange Management Shell laden
 Add-PSSnapin *exchange*
 
 # Parameter
-$LastSuccessSyncBefore = 0 # Dieser Parameter kann nur alte Geräte anzeigen lassen
+$LastSuccessSyncBefore = 0 # mit diesem Parameter kann nur alte Geräte anzeigen lassen, die seit X Tagen nicht mehr synchronisiert haben
 
 # Aktuelles Datum auslesen
 $today = get-date
