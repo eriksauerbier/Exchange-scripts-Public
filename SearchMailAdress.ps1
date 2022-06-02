@@ -1,7 +1,7 @@
 # Dieses Skript sucht nach einer bestimmte E-Mail-Adresse am Exchange-Server
 # Stannek GmbH - v.2.01 - 25.01.2022 E.Sauerbier
 
-# Paramter
+# Parameter
 $TextboxTitle = "E-Mail Adresse eingeben"
 $TextBoxExplanation = "Bitte zu suchende E-Mail Adresse eingeben:"
 
