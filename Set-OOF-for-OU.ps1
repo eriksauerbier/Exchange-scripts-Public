@@ -1,7 +1,7 @@
 # Dieses Skript setzt den Abwesenheitsassistenten (OOF) für alle Benutzer oder eine bestimmte OU
 # Stannek GmbH - v.1.1 - 02.06.2022 E.Sauerbier
 
-#Paramter
+#Parameter
 $Starttime = "05.02.2023 18:00" # Format "dd.mm.jjjj HH:MM"
 $Endtime = "10.02.2023 20:00" # Format "dd.mm.jjjj HH:MM"
 $AutoReplyState = "Scheduled" # Alternative kann "Enabled" und "Disbaled" verwendet werden
